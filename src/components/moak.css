@@ -1,0 +1,33 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+  /* const initialProducts = [
+    { id: 1, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 2, name: "Women Striped T-Shirt", category: "T-Shirt", inventory: 56, color: "White", price: 34.90, rating: 4.8, votes: 24, inStock: true },
+    { id: 3, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 4, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 5, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 6, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 7, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 8, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 9, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 10, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 11, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 12, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 13, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 14, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 15, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 16, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+    { id: 17, name: "Men Grey Hoodie", category: "Hoodies", inventory: 96, color: "Black", price: 49.90, rating: 5.0, votes: 32, inStock: true },
+  ]; */

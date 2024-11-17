@@ -1,0 +1,155 @@
+/* Products.css */
+
+.products-page {
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.filter-search {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-dropdown {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-btn {
+  background-color: #007bff;
+}
+
+.add-product-btn {
+  background-color: #28a745;
+}
+
+.bulk-actions {
+  margin-bottom: 15px;
+}
+
+.bulk-edit-btn, .bulk-delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.bulk-edit-btn {
+  background-color: #ffc107;
+}
+
+.bulk-delete-btn {
+  background-color: #dc3545;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.products-table th, .products-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.products-table th {
+  background-color: #f1f5f9;
+  color: #333;
+}
+
+.products-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-category {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.out-of-stock {
+  color: #888;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.pagination {
+  display: flex;
+  gap: 4px;
+}
+
+.page-btn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 4px;
+}
+
+.page-btn.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.product-count {
+  font-size: 0.9rem;
+  color: #666;
+}
