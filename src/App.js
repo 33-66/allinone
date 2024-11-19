@@ -7,6 +7,7 @@ import ProductsPage from './components/ProductPage';
 import AddProduct from './components/AddProduct';
 import CategoryPage from './components/CategoryPage/CategoryPage';
 import EditCategoryPage from './components/CategoryPage/EdItPage/EditCategoryPage';
+import OrderList from './components/OrderPage/OrderList';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='product/addProduct' element={<AddProduct/>} />
           <Route path='/categories' element={<CategoryPage/>}/>
           <Route path="/categories/edit/:categoryId" element={<EditCategoryPage />} />
+          <Route path='/Orders' element={<OrderList/>}/>
           {/* Add more routes for other pages here */}
         </Routes>
       </Layout>
